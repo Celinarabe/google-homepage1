@@ -1,0 +1,120 @@
+
+html {
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("joshua-sortino-gii7lF4y0WY-unsplash.jpg");
+    background-size: cover;
+}
+
+.navBarLeft  {
+    margin: auto;
+    padding: 20px 10px 0px 10px;
+    justify-content: center;
+}
+
+
+a {
+    display: inline;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: small;
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#left {
+    padding-left: 15px;
+
+}
+
+#right {
+    float: right;
+    padding-right: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#little_squares {
+background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+background-size: 528px 68px;
+width: 30px;
+height: 30px;
+float: right;
+background-position: -132px -44px;
+opacity: 0.5;
+}
+
+#sign_in {
+    float: right;
+    color: #fff;
+    border: 1px solid #4285f4;
+    line-height: 28px;
+    padding: 0 12px 0px 12px;
+    font-weight: bold;
+    border-radius: 2px;
+    outline: none;  
+    background-color:#4285f4;
+    opacity: 100%;
+    
+}
+
+#logo{
+    padding: 100px 0px 20px 0px;
+}
+
+button {
+background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 4px;
+color: #5F6368;
+font-family: arial,sans-serif;
+font-size: 14px;
+margin: 11px 4px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#searchText {
+width: 460px;
+min-width: 272px;
+border-radius: 25px;
+border: 1px solid rgb(220,220,220);
+height: 39px;
+margin: 20px;
+}
+
+.footerNav {
+background-color:rgba(100,100,100,.1);
+position: absolute;
+bottom: 0px;
+width: 100%;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 15px;
+color: rgb(220,220,220);
+
+}
+
+
